@@ -20,7 +20,7 @@ public class LoginTestCRM extends BaseClass{
 	@Test
 	public void loginApp() throws InterruptedException{
 		
-		logger=report.createTest("Login to CRM");
+		logger=report.createTest("Login to CRM ");
 		
 		LoginPage loginPage= PageFactory.initElements(driver, LoginPage.class);
 		
